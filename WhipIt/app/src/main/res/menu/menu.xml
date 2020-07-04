@@ -1,0 +1,12 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_home" android:iconTint="@color/colorPrimary" android:icon="@mipmap/iconfinder_jee_66_2180674"
+        android:title="" />
+    <item android:id="@+id/action_messages" android:icon="@mipmap/iconfinder_jee_69_2180661"
+        android:title="" />
+    <item android:id="@+id/action_help" android:icon="@mipmap/iconfinder_shopping_red_outline_headset_3524358"
+        android:title="" />
+    <item android:id="@+id/action_profile" android:icon="@mipmap/iconfinder_jee_74_2180663"
+        android:title="" />
+</menu>

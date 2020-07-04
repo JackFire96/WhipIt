@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WhipIt</string>
+    <string name="all_cakes">TOUS LES GÂTEAUX</string>
+    <string name="bakers">NOS PÂTISSIERS</string>
+    <string name="questions">DEMANDES SPÉCIFIQUES</string>
+    <string name="sign_in">CRÉER UN COMPTE</string>
+    <string name="logo">logo</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="login">Connexion</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="facebook">Connexion via Facebook</string>
+    <string name="instagram">Connexion via Instagram</string>
+    <string name="signin">Créer un compte</string>
+    <string name="no_account">Continuer sans compte</string>
+    <string name="become_baker">Comment devenir pâtissier?</string>
+    <string name="all_cakes_str">Tous les gâteaux</string>
+    <string name="questions_str">Demandes spécifiques</string>
+    <string name="our_bakers">Nos pâtissiers</string>
+    <string name="layer_cakes">LAYER CAKES</string>
+    <string name="cup_cakes">CUP CAKES</string>
+    <string name="wedding_cakes">WEDDING CAKES</string>
+    <string name="name">Nom</string>
+    <string name="firstname">Prénom</string>
+    <string name="nickname">Identifiant</string>
+    <string name="phone">Numéro de téléphone</string>
+    <string name="passwordComfirm">Confirmer le mot de passe</string>
+    <string name="signin_title">Inscription</string>
+    <string name="layer_cakes_str">Layer Cakes</string>
+    <string name="cupcakes_str">Cup Cakes</string>
+    <string name="wedding_cakes_str">Wedding Cakes</string>
+    <string name="macarons_str">Macarons</string>
+    <string name="signin_button">Inscription</string>
+    <string name="valider">Valider</string>
+    <string name="les_macarons">LES MACARONS</string>
+</resources>

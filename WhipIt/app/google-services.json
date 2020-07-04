@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "77779178098",
+    "firebase_url": "https://whipit-b632f.firebaseio.com",
+    "project_id": "whipit-b632f",
+    "storage_bucket": "whipit-b632f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77779178098:android:c6f423d98629fe8ea5a8eb",
+        "android_client_info": {
+          "package_name": "fr.mds.whipit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77779178098-hj9rlm06pekh9t7vnhqfnk0v524m2f99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQsLAQ2G3FtKx7duP9H-ewxmvNtkG--is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77779178098-hj9rlm06pekh9t7vnhqfnk0v524m2f99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

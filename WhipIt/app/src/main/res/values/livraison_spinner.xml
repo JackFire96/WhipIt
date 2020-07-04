@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="livraison">
+        <item>Oui</item>
+        <item>Non</item>
+    </string-array>
+    <string-array name="frequence">
+        <item>1 fois par mois</item>
+        <item>5 fois par mois</item>
+        <item>10 fois par mois</item>
+        <item>Plus de 15 fois par mois</item>
+    </string-array>
+    <string-array name="cakes">
+        <item>Les tartes</item>
+        <item>Les macarons</item>
+        <item>Les cupcakes</item>
+        <item>Les wedding cakes</item>
+        <item>Les layers cakes</item>
+        <item>Autres...</item>
+    </string-array>
+    <string-array name="occasion">
+        <item>Anniversaires</item>
+        <item>Repas de famille</item>
+        <item>Mariage</item>
+        <item>Autres...</item>
+    </string-array>
+</resources>

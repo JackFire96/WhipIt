@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.mds.whipit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+        <activity android:name=".activity.AllCakesActivity" />
+        <activity android:name=".activity.SigninActivity" />
+        <activity android:name=".activity.LayercakeActivity" />
+        <activity android:name=".activity.CupcakeActivity" />
+        <activity android:name=".activity.WeddingcakeActivity" />
+        <activity android:name=".activity.MacaronsActivity" />
+        <activity android:name=".activity.CakeLayer1Activity" />
+        <activity android:name=".activity.OrderCompleteActivity" />
+        <activity android:name=".activity.Baker1Activity" />
+        <activity android:name=".activity.OrderActivity" />
+        <activity android:name=".activity.MainActivityLogged" />
+        <activity android:name=".activity.BakersActivity" />
+        <activity android:name=".activity.MyOrdersActivity" />
+        <activity android:name=".activity.PasswordForgetActivity" />
+        <activity android:name=".activity.NewPasswordActivity" />
+        <activity android:name=".activity.ComfirmCodePasswordActivity" />
+        <activity android:name=".activity.PasswordChangeActivity" />
+        <activity android:name=".activity.TutorialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ActualOrderActivity" />
+        <activity android:name=".activity.CustomOrderCompleteActivity" />
+        <activity android:name=".activity.CustomOrderActivity" />
+        <activity android:name=".activity.NumberCakesActivity" />
+        <activity android:name=".activity.TartelettesActivity" />
+        <activity android:name=".activity.CakeLayer2Activity" />
+        <activity android:name=".activity.CakeLayer3Activity" />
+        <activity android:name=".activity.CakeLayer4Activity" />
+        <activity android:name=".activity.CakeLayer5Activity" />
+        <activity android:name=".activity.CakeLayer6Activity" />
+        <activity android:name=".activity.ModifyInfoActivity" />
+        <activity android:name=".activity.DiscussionActivity" />
+        <activity android:name=".activity.BecomeBakerActivity" />
+        <activity android:name=".activity.BecomeBakerNoAccountActivity" />
+        <activity android:name=".activity.BecomeBakerQuestionsActivity" />
+        <activity android:name=".activity.BecomeBakerRequestSentActivity" />
+        <activity android:name=".activity.HelpActivity" />
+        <activity android:name=".activity.HelpChatActivity" />
+        <activity android:name=".activity.HelpCommandeActivity" />
+        <activity android:name=".activity.HelpInfoActivity" />
+        <activity android:name=".activity.HelpLivraisonActivity" />
+        <activity android:name=".activity.HelpPaiementActivity" />
+        <activity android:name=".activity.MessagesActivity" />
+        <activity android:name=".activity.ProfileActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- connexion_fb colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="borderBlack">#000000</color>
+	<color name="colorWhite">#FFFFFF</color>
+
+	<color name="_bg__connexion_fb_ek2_color">#ffffff</color>
+	<color name="bouton_color">#707070</color>
+	<color name="se_connecter_via_facebook_color">#000000</color>
+	<color name="mot_de_passe_oubli____color">#7c7c7c</color>
+	<color name="rectangle_3_ek2_color">#3c5a99</color>
+	<color name="connexion_via_facebook_color">#ffffff</color>
+	<color name="rectangle_3_ek3_color">#ffffff00</color>
+	<color name="_bg__sans_compte___cat_gorie___1_ek2_color">#f0f1f5</color>
+	<color name="rectangle_112_color">#000000</color>
+	<color name="quelle_petite_fille_ne_r_ve_pas_d_un_g_teau_tout_rose_pour_son_anniversaire___color">#f3a9a7</color>
+	<color name="en_savoir_plus_sur_marie__color">#c7b4c9</color>
+	<color name="rectangle_3_ek4_color">#ede5ed</color>
+	<color name="rectangle_113_color">#e6e6e6</color>
+	<color name="rectangle_114_color">#ebebeb</color>
+	<color name="rectangle_121_color">#f2f2f2</color>
+	<color name="_30_color">#aaaaaa</color>
+	<color name="ellipse_140_color">#c3e0dd</color>
+	<color name="rectangle_51_ek4_color">#b4ffd2</color>
+	<color name="rectangle_86_color">#ffc4d2</color>
+	<color name="rectangle_87_color">#aadbf6</color>
+	<color name="rectangle_88_color">#ffffd2</color>
+	<color name="tous_color">#050000</color>
+	<color name="ellipse_123_color">#f5bbf1</color>
+	<color name="connexion_ek5_color">#c3e0dd</color>
+	<color name="contacter__color">#4d4747</color>
+	<color name="rectangle_3_ek5_color">#e3ebf6</color>
+	<color name="rectangle_51_ek6_color">#f3a9a7</color>
+	<color name="rectangle_51_ek7_color">#c7b4c9</color>
+	<color name="rectangle_158_color">#99d1cb</color>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/rectangle_3_ek4_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="122dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/fouet_1" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="323dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="523dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@mipmap/aide_title" />
+
+    <ImageView
+        android:id="@+id/commande"
+        android:layout_width="125dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toStartOf="@+id/paiement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoGenerales"
+        android:src="@mipmap/commande" />
+
+    <ImageView
+        android:id="@+id/infoGenerales"
+        android:layout_width="145dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/commande"
+        app:layout_constraintEnd_toStartOf="@+id/livraison"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        android:src="@mipmap/info_generales" />
+
+    <ImageView
+        android:id="@+id/livraison"
+        android:layout_width="129dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/paiement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/infoGenerales"
+        app:layout_constraintTop_toBottomOf="@+id/imageView53"
+        android:src="@mipmap/livraison" />
+
+    <ImageView
+        android:id="@+id/paiement"
+        android:layout_width="127dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/commande"
+        app:layout_constraintTop_toBottomOf="@+id/livraison"
+        android:src="@mipmap/paiement" />
+
+    <ImageView
+        android:id="@+id/question"
+        android:layout_width="169dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@mipmap/question" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

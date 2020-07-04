@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="172dp"
+        android:layout_height="37dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/rectangle_3_ek4_color"
+        android:padding="10dp"
+        android:text="S'inscrire"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/fouet"
+        app:layout_constraintBottom_toTopOf="@+id/cv_all_cakes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="231dp"
+        android:layout_height="73dp"
+        android:gravity="center_horizontal"
+        android:text="Vous allez recevoir un code de confirmation par message, insérez le dans le champs si dessous.  e3c6ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Renvoyer le code"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Changer de numero"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        tools:layout_editor_absoluteX="40dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="73dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="73dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editText4"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="73dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/editText5"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="73dp"
+        android:layout_height="85dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toEndOf="@+id/editText7"
+        tools:layout_editor_absoluteY="445dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

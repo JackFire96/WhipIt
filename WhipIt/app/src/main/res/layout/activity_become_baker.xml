@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fond_devenir_patissier"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="145dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:src="@mipmap/fouet_pate_rose"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:text="Comment devenir pâtissier Marche à suivre "
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:gravity="center|center_horizontal"
+                android:text="La règle est simple pour faire parti de la  grande famille WHIP IT, être un grand  passionné est LA règle d’or."
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:text="1.   Répondez à notre questionnaire en toute sincérité, (Et oui, nous voulons nous assurer  que vous soyez un fin connaisseur, pour  rejoindre notre communauté)"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="2.    Dès que nous recevrons votre questionnaire  il sera étudié par l’équipe WHIP IT, qui se  chargera de vous donner une réponse sous  48H. "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="3.    Si votre candidature est acceptée, l’équipe  WHIP IT, se déplace à votre domicile afin  d’évaluer si votre cuisine (environnement)  est au norme, et si bien évidemment vous êtes un pâtissier motivé ;) "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Si vous remplissez toutes les cases, alors l’aventure peut enfin commencer..Hâte de  vous compter parmi nous! "
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="149dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:src="@mipmap/love_whip" />
+
+            <Button
+                android:id="@+id/bt_demande"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:backgroundTint="@color/rectangle_3_ek5_color"
+                android:text="Faire une demande" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
